@@ -10,6 +10,8 @@ body > p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: darkred;
 }
+
+
 .main{
     height: 500px;
     width: 100vw;
@@ -48,17 +50,24 @@ body > p{
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10px 10px 10px 10px;
 }
 .btn-next{
     padding: 20px;
     background-color: goldenrod;
     color: black;
     font-size: larger;
+    border-radius: 10px 10px 10px 10px;
 }
 h1{
     color: blue;
     text-align: center;
     margin-top: 5px;
+    width: 100%;
+    background-color: darkred;
+    position: sticky;
+    top: 0;
+    padding: 10px;
 }
 h3{
     text-align: center;
@@ -74,5 +83,14 @@ img{
 }
 a{
     text-align: center; 
-    color: coral;
+    color: blue;
+}
+footer{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: darkred;
+    color: black;
+    font-size: larger;
+    margin-top: 5px;
 }
